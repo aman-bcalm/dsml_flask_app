@@ -4,12 +4,11 @@ on:
     branches:
       - main
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
-      - uses: action/checkout@v4
+      - uses: actions/checkout@v2
       - name: Install Python 3
         uses: action/setup-python@v1
         with:
