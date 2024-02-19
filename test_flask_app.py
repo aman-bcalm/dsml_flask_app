@@ -22,7 +22,7 @@ def test_ping(client):
     #sending a get request to method ping
     resp = client.get('/ping')
     assert resp.status_code == 200
-    assert resp.json == {"message": "Hi there, I'm working!"}
+    assert resp.json == {"message": "Hi there, I'm working with the new API!"}
 
 
 def test_predict(client):
