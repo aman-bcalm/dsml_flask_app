@@ -33,7 +33,7 @@ jobs:
 
   job2:
     needs: job1
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     environment: production
 
     steps:
